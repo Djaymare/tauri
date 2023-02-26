@@ -86,5 +86,8 @@ winapi = { version = "0.3", features = [ "handleapi", "processenv", "winbase", "
 [target."cfg(unix)".dependencies]
 libc = "0.2"
 
+[build-dependencies]
+url = { version = "2.3", features = [ "serde" ] }
+
 [profile.release]
 lto = true
