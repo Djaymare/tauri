@@ -7,6 +7,7 @@
 pub(crate) mod menu;
 
 pub use menu::{MenuEvent, MenuHandle};
+use url::Url;
 
 #[cfg(target_os = "macos")]
 use crate::TitleBarStyle;

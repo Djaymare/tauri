@@ -61,7 +61,7 @@ use wry::{
     },
   },
   http::{Request as WryRequest, Response as WryResponse},
-  webview::{FileDropEvent as WryFileDropEvent, WebContext, WebView, WebViewBuilder},
+  webview::{FileDropEvent as WryFileDropEvent, Url, WebContext, WebView, WebViewBuilder},
 };
 
 pub use wry;
